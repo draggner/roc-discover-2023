@@ -1,3 +1,10 @@
 body {
-  background-color: black;
+  background-image: url(./assets/bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+
+  /*background: color image repeat position/size; - SHORT */
+
+  /*background: url(;/asstes/bg-mobile.jpg) no-repeat top center/cover*/
 }
