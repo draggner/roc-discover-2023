@@ -8,3 +8,9 @@ body {
 
   /*background: url(;/asstes/bg-mobile.jpg) no-repeat top center/cover*/
 }
+
+#container {
+  width: 360px;
+  height: 720px;
+  border: 1px solid red;
+}
