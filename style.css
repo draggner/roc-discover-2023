@@ -13,4 +13,7 @@ body {
   width: 360px;
   height: 720px;
   border: 1px solid red;
+  margin: auto; /*Devido uma regra do CSS, as margins dos elementos ficam apenas pelo lado esquerdo e direito./*
+  /*  margin-left: auto;
+  margin-right: auto;*/
 }
