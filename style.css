@@ -5,8 +5,18 @@
   /*Propriedades essas para resetar as propriedades padrões pre-estabelecidas pelo browser*/
 }
 
+:root {
+  --text-color: white;
+  --bg-url: url(./assets/bg-mobile.jpg)
+}
+
+.light {
+  --text-color: black;
+  --bg-url: url(./assets/bg-mobile-light.jpg)
+}
+
 body {
-  background-image: url(./assets/bg-mobile.jpg);
+  background-image: var(--bg-url);
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -18,7 +28,7 @@ body {
 
 body * {
   font-family: 'Inter', sans-serif;
-  color: #FFFFFF;
+  color: var(--text-color);
 }
 
 #container {
@@ -81,7 +91,7 @@ ul li a {
 
 ul li a:hover {
   background: rgba(255, 255, 255, 0.05);
-  border: 1.5px solid white;
+  border: 1.5px solid var(--text-color);
 }
 
 #social-links {
