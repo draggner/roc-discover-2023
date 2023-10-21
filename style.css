@@ -69,6 +69,10 @@ body * {
   margin-top: 8px;
 }
 
+#switch {
+  position: relative;
+}
+
 #switch button {
   width: 32px;
   height: 32px;
@@ -76,6 +80,20 @@ body * {
   border: 0;
   border-radius: 50%;
   
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+
+#switch span {
+  display: block;
+  width: 64px;
+  height: 24px;
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 9999px;
 }
 
 /* Links da Listagem */
