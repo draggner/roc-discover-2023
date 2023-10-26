@@ -36,6 +36,8 @@ body {
   /*background: color image repeat position/size; - SHORT */
 
   /*background: url(;/asstes/bg-mobile.jpg) no-repeat top center/cover*/
+
+  height: 100vh;
 }
 
 body * {
